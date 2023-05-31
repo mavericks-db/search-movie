@@ -1,0 +1,45 @@
+*, ::before, ::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: ivory;
+}
+
+nav {
+  width: 100%;
+  background-color: navy;
+  margin-bottom: 1rem;
+}
+
+#searchInput {
+  width: 30vw;
+}
+
+#searchInput::placeholder {
+  color: ivory;
+  padding: 0.25rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.container .info {
+  /* border: 1px dotted #242424; */
+  border-radius: 1rem;
+  width: 50%;
+  padding: 1rem;
+}
