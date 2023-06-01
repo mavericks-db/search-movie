@@ -114,6 +114,5 @@ function defaultSearch(arr) {
 window.addEventListener("DOMContentLoaded", defaultSearch);
 window.addEventListener("load", () => {
   searchInput.focus();
-})
-
+});
 

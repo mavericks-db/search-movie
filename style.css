@@ -22,6 +22,7 @@ nav {
 
 #searchInput {
   width: 30vw;
+  text-align: left;
 }
 
 #searchInput::placeholder {
